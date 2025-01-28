@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CheckModel" representedClassName="CheckModel" syncable="YES" codeGenerationType="class">
+        <attribute name="chDead" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="chName" optional="YES" attributeType="String"/>
+        <attribute name="chNote" optional="YES" attributeType="String"/>
+        <attribute name="chPer" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="GiftModel" representedClassName="GiftModel" syncable="YES" codeGenerationType="class">
+        <attribute name="gBudget" optional="YES" attributeType="String"/>
+        <attribute name="gGift" optional="YES" attributeType="String"/>
+        <attribute name="gNote" optional="YES" attributeType="String"/>
+    </entity>
+</model>
