@@ -46,6 +46,8 @@ struct AddGift: View {
                         
                         Button(action: {
                             
+                            viewModel.gWhom = viewModel.currentWhoms
+                            
                             viewModel.addGift()
                             
                             viewModel.gGift = ""
@@ -165,6 +167,31 @@ struct AddGift: View {
                             .frame(maxWidth: .infinity)
                             .frame(height: 1)
                             .padding(.vertical, 10)
+                        
+                        Text("For whom")
+                            .foregroundColor(.black)
+                            .font(.system(size: 14, weight: .regular))
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                        
+                        HStack {
+                            
+                            ForEach(viewModel.ForWhoms, id: \.self) { index in
+                            
+                                Button(action: {
+                                    
+                                    viewModel.currentWhoms = index
+                                    
+                                }, label: {
+                                    
+                                    Text(index)
+                                        .foregroundColor(viewModel.currentWhoms == index ? .white : .black)
+                                        .font(.system(size: 16, weight: .regular))
+                                        .frame(maxWidth: .infinity)
+                                        .frame(height: 50)
+                                        .background(RoundedRectangle(cornerRadius: 20).fill(viewModel.currentWhoms == index ? Color("prim") : Color.gray.opacity(0.1)))
+                                })
+                            }
+                        }
                     }
                 }
             }

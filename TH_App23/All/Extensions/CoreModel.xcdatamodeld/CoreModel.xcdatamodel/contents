@@ -10,5 +10,6 @@
         <attribute name="gBudget" optional="YES" attributeType="String"/>
         <attribute name="gGift" optional="YES" attributeType="String"/>
         <attribute name="gNote" optional="YES" attributeType="String"/>
+        <attribute name="gWhom" optional="YES" attributeType="String"/>
     </entity>
 </model>

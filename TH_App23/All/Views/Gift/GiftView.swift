@@ -141,6 +141,34 @@ struct GiftView: View {
                                                 .font(.system(size: 17, weight: .regular))
                                         })
                                     }
+                                    
+                                    HStack {
+                                        
+                                        Text("For whom:")
+                                            .foregroundColor(.gray.opacity(0.7))
+                                            .font(.system(size: 15, weight: .regular))
+                                        
+                                        Text("\(index.gWhom ?? "")")
+                                            .foregroundColor(.black)
+                                            .font(.system(size: 16, weight: .regular))
+                                        
+                                        Spacer()
+
+                                    }
+                                    
+                                    Text("Note:")
+                                        .foregroundColor(.black.opacity(0.7))
+                                        .font(.system(size: 15, weight: .regular))
+                                    
+                                    VStack(alignment: .leading, spacing: 12) {
+                                      
+                                        Text(index.gNote ?? "")
+                                            .foregroundColor(.black)
+                                            .font(.system(size: 15, weight: .regular))
+                                    }
+                                    .padding()
+                                    .frame(maxWidth: .infinity, alignment: .leading)
+                                    .background(RoundedRectangle(cornerRadius: 14).fill(Color("bg")))
                                 }
                                 .padding()
                                 .background(RoundedRectangle(cornerRadius: 13).fill(Color("prim").opacity(0.1)))

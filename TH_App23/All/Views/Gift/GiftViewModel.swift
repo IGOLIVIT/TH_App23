@@ -18,6 +18,9 @@ final class GiftViewModel: ObservableObject {
     @Published var isDetailVisible6 = false
     @Published var isDetailVisible7 = false
     @Published var isDetailVisible8 = false
+    
+    @Published var ForWhoms: [String] = ["Both", "Bride", "Groom"]
+    @Published var currentWhoms: String = "Both"
 
     @Published var isAdd: Bool = false
     @Published var isDetail: Bool = false
@@ -27,7 +30,8 @@ final class GiftViewModel: ObservableObject {
     @Published var gGift: String = ""
     @Published var gBudget: String = ""
     @Published var gNote: String = ""
-    
+    @Published var gWhom: String = ""
+
     @Published var gifts: [GiftModel] = []
     @Published var selectedGift: GiftModel?
 
@@ -39,6 +43,7 @@ final class GiftViewModel: ObservableObject {
         loan.gGift = gGift
         loan.gBudget = gBudget
         loan.gNote = gNote
+        loan.gWhom = gWhom
 
         CoreDataStack.shared.saveContext()
     }
