@@ -32,6 +32,11 @@
 		7899946C2D4954C80013B0C9 /* ArticlesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899946B2D4954C80013B0C9 /* ArticlesDetail.swift */; };
 		7899946E2D495A490013B0C9 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899946D2D495A490013B0C9 /* TabBar.swift */; };
 		789994712D495DB00013B0C9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789994702D495DB00013B0C9 /* SettingsView.swift */; };
+		78F5E3B82D5EA3C700F89927 /* U1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F5E3B72D5EA3C700F89927 /* U1.swift */; };
+		78F5E3BA2D5EA3CE00F89927 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F5E3B92D5EA3CE00F89927 /* Review.swift */; };
+		78F5E3BC2D5EA5D600F89927 /* Domaghi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F5E3BB2D5EA5D600F89927 /* Domaghi.swift */; };
+		78F5E3BE2D5EA5DF00F89927 /* Sdirok.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F5E3BD2D5EA5DF00F89927 /* Sdirok.swift */; };
+		78F5E3C02D5EA5EB00F89927 /* WataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F5E3BF2D5EA5EB00F89927 /* WataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +67,11 @@
 		7899946B2D4954C80013B0C9 /* ArticlesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesDetail.swift; sourceTree = "<group>"; };
 		7899946D2D495A490013B0C9 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		789994702D495DB00013B0C9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		78F5E3B72D5EA3C700F89927 /* U1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U1.swift; sourceTree = "<group>"; };
+		78F5E3B92D5EA3CE00F89927 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		78F5E3BB2D5EA5D600F89927 /* Domaghi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domaghi.swift; sourceTree = "<group>"; };
+		78F5E3BD2D5EA5DF00F89927 /* Sdirok.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sdirok.swift; sourceTree = "<group>"; };
+		78F5E3BF2D5EA5EB00F89927 /* WataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +136,7 @@
 		789994392D493BDF0013B0C9 /* Start */ = {
 			isa = PBXGroup;
 			children = (
+				78F5E3B62D5EA3BD00F89927 /* StScU */,
 				7899943F2D493C000013B0C9 /* StSc */,
 				7899943E2D493BFB0013B0C9 /* Loading */,
 				7899943D2D493BF60013B0C9 /* Launch */,
@@ -148,6 +159,9 @@
 				7899945C2D4940540013B0C9 /* Array.swift */,
 				7899945E2D49405D0013B0C9 /* CoreDataStack.swift */,
 				789994602D4940640013B0C9 /* DateConvert.swift */,
+				78F5E3BB2D5EA5D600F89927 /* Domaghi.swift */,
+				78F5E3BD2D5EA5DF00F89927 /* Sdirok.swift */,
+				78F5E3BF2D5EA5EB00F89927 /* WataStack.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -252,6 +266,15 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
+		78F5E3B62D5EA3BD00F89927 /* StScU */ = {
+			isa = PBXGroup;
+			children = (
+				78F5E3B72D5EA3C700F89927 /* U1.swift */,
+				78F5E3B92D5EA3CE00F89927 /* Review.swift */,
+			);
+			path = StScU;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -330,7 +353,10 @@
 				789994482D493C390013B0C9 /* ArticlesView.swift in Sources */,
 				789994452D493C2B0013B0C9 /* GiftView.swift in Sources */,
 				7899946E2D495A490013B0C9 /* TabBar.swift in Sources */,
+				78F5E3C02D5EA5EB00F89927 /* WataStack.swift in Sources */,
 				7899944D2D493CDC0013B0C9 /* CoreModel.xcdatamodeld in Sources */,
+				78F5E3B82D5EA3C700F89927 /* U1.swift in Sources */,
+				78F5E3BC2D5EA5D600F89927 /* Domaghi.swift in Sources */,
 				7899944F2D493CFE0013B0C9 /* LoadingView.swift in Sources */,
 				789994512D493D030013B0C9 /* R1.swift in Sources */,
 				789994592D493DCF0013B0C9 /* GiftViewModel.swift in Sources */,
@@ -339,10 +365,12 @@
 				789994612D4940640013B0C9 /* DateConvert.swift in Sources */,
 				7899946C2D4954C80013B0C9 /* ArticlesDetail.swift in Sources */,
 				789994552D493D0F0013B0C9 /* R3.swift in Sources */,
+				78F5E3BA2D5EA3CE00F89927 /* Review.swift in Sources */,
 				789994692D4950230013B0C9 /* ArticlesModel.swift in Sources */,
 				7899945B2D493DE90013B0C9 /* ArticlesViewModel.swift in Sources */,
 				789994672D494BDC0013B0C9 /* AddGift.swift in Sources */,
 				789994572D493DC40013B0C9 /* CheckListViewModel.swift in Sources */,
+				78F5E3BE2D5EA5DF00F89927 /* Sdirok.swift in Sources */,
 				789994422D493C1C0013B0C9 /* CheckListView.swift in Sources */,
 				789994712D495DB00013B0C9 /* SettingsView.swift in Sources */,
 			);
@@ -492,7 +520,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "IOI.TH-App23";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -531,7 +559,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "IOI.TH-App23";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
